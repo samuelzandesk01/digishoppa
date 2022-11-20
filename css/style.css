@@ -39,13 +39,12 @@ p {
 }
 
 .btn {
-  border-radius: 30px;
-  width: 100%;
+    border-radius: 15px;
   padding: 10px 50px !important;
 }
 
 .btn-lg {
-  padding: 10px 50px !important;
+  padding: 10px 70px !important;
 }
 
 .btn:hover {
@@ -112,6 +111,11 @@ h2 {
 
 .operations {
   padding: 20px 10px;
+}
+
+.copyright div:nth-child(2){
+    margin-left: auto;
+/* background-color: red; */
 }
 
 /* .operations:hover{
@@ -232,13 +236,11 @@ footer p {
   }
 
   .btn{
-    border-radius: 30px;
+    border-radius: 15px;
     padding: 10px 20px !important;
-    width: 100%;
   }
   .btn-lg{
-    border-radius: 30px;
-    width: 100%;
+    border-radius: 15px;
     padding: 10px 20px !important;
   }
 
@@ -273,6 +275,11 @@ footer p {
 
   .footer-col .footer-item:nth-child(1) {
     flex-grow: 2;
+  }
+
+  .copyright{
+    display: flex !important;
+    flex-direction: row;
   }
 
   .footer-col .footer-item:nth-child(2) {
