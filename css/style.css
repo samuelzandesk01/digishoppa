@@ -14,6 +14,10 @@
   --border: rgb(234, 234, 234);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 a{
     color: inherit;
 }
@@ -24,7 +28,15 @@ p{
 
 
 .navbar {
-  padding: 20px 0px !important;
+    padding: 20px 0px !important;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    background: white;
+    margin: 0px;
+    height: max-content;
+    /* bottom: 64px; */
+    z-index: 200;
 }
 
 .btn {
@@ -43,6 +55,15 @@ p{
 
 .navbar-nav {
   margin: 0px auto !important;
+}
+
+.navbar-toggler:focus{
+box-shadow: none   !important;
+}
+
+.navbar-toggler-icon{
+    width: 3rem;
+    height: 3rem;
 }
 
 .nav-item {
@@ -205,6 +226,11 @@ h2 {
     width: 100% !important;
   }
 
+  .section-padding{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .pricing{
     margin: 10px;
   }
@@ -212,6 +238,11 @@ h2 {
   .card{
     width: 100% !important;
     margin: 15px 0px !important;
+  }
+
+  .heading-one {
+    font-size: 2rem;
+    font-weight: bolder;
   }
 
 }
