@@ -28,7 +28,7 @@ p {
 
 .navbar {
   padding: 20px 0px !important;
-  position: sticky;
+/*   position: sticky; */
   width: 100%;
   top: 0;
   background: white;
