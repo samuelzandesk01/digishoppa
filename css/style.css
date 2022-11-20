@@ -40,7 +40,7 @@ p{
 }
 
 .btn {
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 10px 50px !important;
 }
 
@@ -257,7 +257,7 @@ footer p{
   }
   
   .btn {
-  border-radius: 10px;
+  
     font-size: 16px;
   padding:10px 30px !important;
 }
