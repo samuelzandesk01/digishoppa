@@ -258,12 +258,10 @@ footer p{
   
   .btn {
   border-radius: 10px;
-  padding:7px 30px !important;
+  padding:10px 30px !important;
 }
 
-.btn-lg{
-    padding: 7px 50px !important; 
-}
+
   
 
 }
