@@ -238,10 +238,12 @@ footer p {
   .btn{
     border-radius: 15px;
     padding: 10px 20px !important;
+     width: 100% !important;
   }
   .btn-lg{
     border-radius: 15px;
     padding: 10px 20px !important;
+     width: 100% !important;
   }
 
   .socials{
