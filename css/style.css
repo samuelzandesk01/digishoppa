@@ -2,14 +2,24 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  text-decoration: none;
+  text-decoration: none !important;
   list-style-type: none;
+  --btnHover: #bb0c0c;
 }
 
 :root {
   --colorRed: #dc2626;
   --colorBlue: #090199;
   --priceTitle: 24px;
+  --border: rgb(234, 234, 234);
+}
+
+a{
+    color: inherit;
+}
+
+p{
+    font-size: 19px;
 }
 
 
@@ -40,8 +50,12 @@
 }
 
 .btn-red {
-  background-color: var(--colorRed) !important;
+  background-color: var(--colorRed);
   color: white;
+}
+
+.btn-red:hover{
+    background-color: var(--btnHover);
 }
 
 .section-padding {
@@ -116,6 +130,31 @@ h2 {
     padding: 20px;
 }
 
+/* Pricing */
+
+.pricing{
+    
+    padding: 40px 25px;
+    border: 1.4px solid var(--border);
+    border-radius: 10px;
+}
+
+.active-price{
+    border:  1.4px solid var(--colorRed);
+}
+
+.premium-badge{
+    text-align: center;
+    position: relative;
+    margin: -53px 0px 20px 0px ;
+    background-color: var(--colorRed);
+    color: white;
+    /* width: 300px; */
+    padding: 2px;
+    border-radius: 10px;
+}
+
+
 .price-title{
     font-size: var(--priceTitle);
 }
@@ -128,11 +167,46 @@ h2 {
     font-size: 2rem;
 }
 
+.flex-start{
+    align-self: flex-start;
+}
+
+.gap-1{
+    gap: 0.25rem;
+}
+.month{
+    font-size: 16px !important;
+}
+
+.price{
+    font-size: 3rem !important;
+    font-weight: bolder;
+}
+
+.footer-list  {
+    margin: 0px !important;
+    padding: 0px;
+}
+
+
+
+
+.footer-list li{
+    padding: 10px 0px;
+    font-size: 19px;
+}
+
+
+
 /* Media Query */
 
 @media (max-width: 1000px) {
   .section-paragraph {
     width: 100% !important;
+  }
+
+  .pricing{
+    margin: 10px;
   }
 
   .card{
