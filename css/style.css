@@ -209,12 +209,15 @@ h2 {
     padding: 0px;
 }
 
+footer p{
+    font-size: 16px;
 
+}
 
 
 .footer-list li{
     padding: 10px 0px;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 
@@ -239,10 +242,19 @@ h2 {
     width: 100% !important;
     margin: 15px 0px !important;
   }
+  
+  p{
+   font-size: 1.2rem;
+  }
 
   .heading-one {
     font-size: 2rem;
     font-weight: bolder;
   }
+  
+  h3, h4{
+    font-size: 2rem;
+  }
+  
 
 }
