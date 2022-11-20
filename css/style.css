@@ -234,6 +234,7 @@ footer p {
   .btn{
     border-radius: 30px;
     padding: 10px 20px !important;
+    width: 100%;
   }
   .btn-lg{
     border-radius: 30px;
